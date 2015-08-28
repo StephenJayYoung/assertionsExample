@@ -1,4 +1,4 @@
-// assert.equal(actual, expected[, message])
+assert.equal(actual, expected[, message])
 
 // var arr = [1,2,3],
 //     lastElem = arr.pop();
@@ -10,7 +10,7 @@ var assert = require('assert');
 var arr = [1,2,3],
     lastElem = arr.pop();
 
-assert.equal(lastElem, 2, "expected " + lastElem + " to equal 3, but it didn't!");
+assert.equal(lastElem, 3, "expected " + lastElem + " to equal 3, but it didn't!");
 
 
 
